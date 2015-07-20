@@ -1,9 +1,11 @@
 # Zotero to CSL
-Convert [Zotero] JSON to [CSL] JSON, using the field mappings from
+Convert [Zotero] JSON to [CSL-JSON], using the field mappings from
 [https://github.com/aurimasv/z2csl](https://github.com/aurimasv/z2csl).
 
-Before use in this library, the mapping file is converted to JSON using
-[https://github.com/hay/xml2json](https://github.com/hay/xml2json).
+Before use in this library, the mapping file is converted to JSON using the
+Python program [xml2json](https://github.com/hay/xml2json). This is done to
+enable the library to work in both browsers and Node without having to deal
+with differing XML parsers.
 
 # Usage
 
@@ -42,3 +44,6 @@ console.log(cslData)
 }
 */
 ```
+
+[Zotero]: http://zotero.org/
+[CSL-JSON]: https://github.com/citation-style-language/schema
