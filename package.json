@@ -1,0 +1,17 @@
+{
+  "name": "zotero-to-csl",
+  "version": "1.0.0",
+  "author": "Patrick Golden",
+  "description": "Convert Zotero JSON to CSL JSON",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/editorsnotes/zotero-to-csl.git"
+  },
+  "devDependencies": {
+    "tape": "^4.0.1"
+  }
+}
