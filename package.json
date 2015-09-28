@@ -1,6 +1,6 @@
 {
   "name": "zotero-to-csl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Patrick Golden",
   "description": "Convert Zotero JSON to CSL JSON",
   "license": "AGPL-3.0",
