@@ -24,3 +24,19 @@ test('Convert to CSL JSON', function (t) {
     }
   )
 });
+
+test('Ignore fields not used for citations', function (t) {
+  var zoteroToCSL = require('./')
+
+  t.plan(1);
+
+  t.deepEqual(
+    zoteroToCSL({
+      itemType: 'book',
+      collections: [],
+      relations: {},
+      tags: []
+    }),
+    { type: 'book' }
+  )
+});

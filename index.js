@@ -105,6 +105,8 @@ module.exports = function (zoteroData) {
     switch (key) {
       case 'itemType':
       case 'tags':
+      case 'relations':
+      case 'collections':
         // Not used to generate a citation
         break;
       case 'creators':
