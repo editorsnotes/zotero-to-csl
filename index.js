@@ -113,7 +113,7 @@ module.exports = function (zoteroData) {
         update(cslObject, getCreators(val, typeMap));
         break;
       case 'date':
-        cslObject.issued = { raw: val };
+        if (val) cslObject.issued = { raw: val };
         break;
       default:
         field = getCSLField(key, typeMap);
