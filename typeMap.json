@@ -72,6 +72,51 @@
                     "#tail": "  ",
                     "@cslField": "translator",
                     "@zField": "translator"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "interviewee"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "artist"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "sponsor"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "inventor"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "cartographer"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "performer"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "presenter"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "podcaster"
+                },
+                {
+                    "#tail": "  ",
+                    "@cslField": "author",
+                    "@zField": "programmer"
                 }
             ]
         },
@@ -2221,7 +2266,7 @@
                             "creatorType": [
                                 {
                                     "#tail": "        ",
-                                    "@baseField": "author",
+                                    "@baseField": "director",
                                     "@label": "Director",
                                     "@value": "director"
                                 },
@@ -3971,7 +4016,7 @@
                             "creatorType": [
                                 {
                                     "#tail": "        ",
-                                    "@baseField": "author",
+                                    "@baseField": "director",
                                     "@label": "Director",
                                     "@value": "director"
                                 },
@@ -4111,7 +4156,7 @@
                             "creatorType": [
                                 {
                                     "#tail": "        ",
-                                    "@baseField": "author",
+                                    "@baseField": "director",
                                     "@label": "Director",
                                     "@value": "director"
                                 },
@@ -4256,7 +4301,7 @@
                             "creatorType": [
                                 {
                                     "#tail": "        ",
-                                    "@baseField": "author",
+                                    "@baseField": "director",
                                     "@label": "Director",
                                     "@value": "director"
                                 },
